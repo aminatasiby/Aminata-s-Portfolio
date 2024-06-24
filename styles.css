@@ -1,0 +1,82 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+
+.navbar{ 
+    display: flex;
+    background-color: #78f3a9;
+    overflow: hidden;
+}
+
+
+.navbar a {
+        flex: 1;
+        color: #000;
+        text-align: center;
+        padding: 50px 30px;
+        font-weight: bold;
+}
+
+
+.navbar a:hover {
+    background-color: #1bba82;
+    color: #fff;
+}
+
+.home{
+    display: flex;
+    flex:1;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.headshot {
+    width: 200px;
+    margin-left: 200px;
+    border-radius: 20px;
+    border: 2px solid #78f3a9;
+}
+
+
+h1 {
+    color: #78f3a9;
+}
+
+p {
+    line-height: 2;
+}
+
+a {
+    color: #78f3a9;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.aboutme{
+
+
+}
+
+
+
+.mywork{
+
+}
+
+.footer {
+    text-align: center;
+    padding: .5px;
+    background-color: #5defb0;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
